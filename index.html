@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Find friends</title>
+        <link href='css/reset.css' rel='stylesheet'>
+        <link href='css/style.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id='header'><h1>Friaks</h1></div>
+        <div id='main'>
+            <div class='row'>
+                <div class='row'>
+                    <label>Gender</label>
+                    <select id='gender'>
+                        <option value='F'>Female</option>
+                        <option value='M'>Male</option>
+                        <option value='O'>Other</option>
+                        <option value='A'>All</option>
+                    </select>
+                </div>
+                <div class='row'>
+                    <label>Hobbies</label>
+                    <input type='text' id='hobby'>
+                </div>
+                <div class='row'>
+                    <button id='searchBtn'>Search</button>
+                </div>
+            </div>
+            <div id='results'>
+                <div class='person-row'>
+                    <img src='images/atleta.png'>
+                    <div class='person-info'>
+                        <div>Camilo</div>
+                            <div>Sports, read, study</div>
+                    </div>
+                    <button>Add as friend</button>
+                </div>
+                <div class='person-row'>
+                    <img src='images/disfraz.png'>
+                    <div class='person-info'>
+                        <div>Adah</div>
+                        <div>Draw, dance, traveling</div>
+                    </div>
+                    <button>Add as friend</button>
+                <div class='person-row'>
+                    <img src='images/masculino.png'>
+                    <div class='person-info'>
+                        <div>Julio</div>
+                        <div>Cooking, read</div>
+                    </div>
+                    <button>Add as friend</button>
+                <div class='person-row'>
+                    <img src='images/granjero.png'>
+                    <div class='person-info'>
+                        <div>Abril</div>
+                        <div>Gardering</div>
+                    </div>
+                    <button>Add as friend</button>
+                <div class='person-row'>
+                    <img src='images/mujer-de-negocios.png'>
+                    <div class='person-info'>
+                        <div>Daniela</div>
+                        <div>Dance, sports</div>
+                    </div>
+                    <button>Add as friend</button>
+                <div class='person-row'>
+                    <img src='images/mujer.png'>
+                    <div class='person-info'>
+                        <div>Olga</div>
+                        <div>Study, drawing</div>
+                    </div>
+                    <button>Add as friend</button>
+                </div>
+            </div>
+        </div>
+        <script src='js/script.js'></script>
+    </body>
+</html>
